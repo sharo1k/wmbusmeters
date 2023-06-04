@@ -162,6 +162,7 @@ namespace
 
         case 0x44: return 3;
 
+        case 0x70: return 1+1*4; //Historical data
         case 0x71: return 1+2*4; // ?
         case 0x72: return 1+3*4; // ?
         case 0x73: return 1+4*4; // Historical data
